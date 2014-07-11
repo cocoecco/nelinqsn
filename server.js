@@ -129,7 +129,7 @@ var SampleApp = function() {
         
         self.routes['/mobilereq'] = function(req, res) {        
             sys_api.incomingRouteRequest(req,res,'registernewuser');
-            console.log('routed to api');
+            console.log('routed to api mobilereq');
         }  
     
     };

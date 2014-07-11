@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nelinq</title>
+  <link rel="stylesheet" type="text/css" href="/resources/css/loginstyle.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  
+  <script type="text/javascript">
+    function postData(pData) {
+      alert(data);
+      
+      $.ajax({
+        url: "/loguser",
+        type: "GET",
+        contentType: "application/json",
+        processData: false,
+        data: pData,
+        complete: function (data) {
+          alert(data.responseText);
+          //$('#output').html(data.responseText);
+        }
+      });
+    }
+  </script>
+  <script>
+  function createAccountDirect() {
+    alert('create it!');
+  }
+    
+  </script>
+  
+</head>
+
+<body>
+<div id="loginBox">
+  <div id="boxTop">
+    &nbsp;&nbsp;Login NOW!!
+  
+  <form name="loginForm" action="/loguser" method="" accept-charset="utf-8" id="loginForm">  
+    <ul>
+        <li><label for="usermail">Login Name</label>    
+        <input id="uname" type="email" name="uname" placeholder="yourname@email.com" required></li>  
+        <li><label for="password" style="padding-right: 33px;">Password</label>  
+        <input id="upass" type="password" name="upass" placeholder="password" required></li>  
+        <li>  
+        <input type="submit" name="submitBtn" value="Login">
+        <input type="button" value="Create Account" style="margin-left: 34px;" onclick="createAccountDirect()"></li>  
+        </li>
+    </ul>
+     <input type="hidden" name="hid" id="hid" value="nonuser">
+  </form>  
+  
+  
+  </div>
+  
+</div>
+
+<a href="javascript:;" onclick="postData()">Click here to say Hi!</a>
+
+</body>
+</html>
+
+
+
+

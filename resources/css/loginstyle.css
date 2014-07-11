@@ -1,0 +1,113 @@
+
+html {
+    background:rgb(79,143,249) no-repeat center center fixed; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(164,197,252,1) 1%, rgba(79,143,249,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,rgba(164,197,252,1)), color-stop(100%,rgba(79,143,249,1))); /* Chrome,Safari4+ */
+    background:-webkit-radial-gradient(center, ellipse cover,  rgba(164,197,252,1) 1%,rgba(79,143,249,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(164,197,252,1) 1%,rgba(79,143,249,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(164,197,252,1) 1%,rgba(79,143,249,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(164,197,252,1) 1%,rgba(79,143,249,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4c5fc', endColorstr='#4f8ff9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    min-height: 100%;
+}
+
+
+
+#loginBox {
+    height: 250px;
+    width:  400px;
+    margin-top: 10%;
+    background-color: #FFFAF0;
+    margin-left: auto;
+    margin-right: auto;
+    border:4px solid;
+    border-color: #191970;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;	
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+#loginBox > #boxTop {
+  width: 100%;
+  height: 40px;
+  background-color: #B0E0E6;
+  color: #191970;
+  font-size: 25px;
+  line-height: 50px;
+  
+  -webkit-border-top-left-radius: 10px;
+  -khtml-border-radius-topleft: 10px;	
+  -moz-border-radius-topleft: 10px;
+  border-top-left-radius: 10px;
+  
+  -webkit-border-top-right-radius: 10px;
+  -khtml-border-radius-topright: 10px;	
+  -moz-border-radius-topright: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+#loginForm ul {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+#loginForm input:not([type=submit]) {  
+    padding: 5px;  
+    border: 1px solid rgba(0, 0, 0, 0.3);  
+    border-radius: 3px;  
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1),   
+                0px 1px 0px 0px rgba(250, 250, 250, 0.5) ;
+    margin-left : 10px;
+} 
+
+#loginForm label {
+  color: #999;
+  padding-top: 2px;
+  clear:left;
+  font-size:18px;
+
+  width:200px;
+  text-align:right;
+  padding-right:10px;
+}
+ 
+
+#loginForm input[type=submit] {  
+    border: 1px solid rgba(0, 0, 0, 0.3);  
+    background: #64c8ef; /* Old browsers */  
+    background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */  
+    background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */  
+    background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */  
+    background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */  
+    background: linear-gradient(to bottombottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */  
+    color: #fff;  
+    padding: 5px 15px;  
+    margin-right: 0px;  
+    margin-top: 15px;  
+    border-radius: 3px;  
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+    width:120px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

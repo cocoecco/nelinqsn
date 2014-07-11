@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/Shacharudi9/My Development Files/GitHub Repo/NelinqServer/nelinqsn',
+5 verbose install   [ 'express' ] ]
+6 info preinstall OpenShift-Sample-App@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express@~3.4.4', null ]
+9 verbose cache add name=undefined spec="express@~3.4.4" args=["express@~3.4.4",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'express@~3.4.4',
+10 verbose parsed url   path: 'express@~3.4.4',
+10 verbose parsed url   href: 'express@~3.4.4' }
+11 verbose cache add name="express" spec="~3.4.4" args=["express","~3.4.4"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '~3.4.4',
+12 verbose parsed url   path: '~3.4.4',
+12 verbose parsed url   href: '~3.4.4' }
+13 verbose addNamed [ 'express', '~3.4.4' ]
+14 verbose addNamed [ null, '>=3.4.4-0 <3.5.0-0' ]
+15 silly lockFile c306bdaa-express-3-4-4 express@~3.4.4
+16 verbose lock express@~3.4.4 /Users/Shacharudi9/.npm/c306bdaa-express-3-4-4.lock
+17 silly lockFile c306bdaa-express-3-4-4 express@~3.4.4
+18 error Error: Attempt to unlock express@~3.4.4, which hasn't been locked
+18 error     at unlock (/usr/local/lib/node_modules/npm/lib/cache.js:1304:11)
+18 error     at cb (/usr/local/lib/node_modules/npm/lib/cache.js:646:5)
+18 error     at /usr/local/lib/node_modules/npm/lib/cache.js:655:20
+18 error     at /usr/local/lib/node_modules/npm/lib/cache.js:1290:7
+18 error     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:167:38
+18 error     at OpenReq.Req.done (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:144:5)
+18 error     at OpenReq.done (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:64:22)
+18 error     at Object.oncomplete (fs.js:107:15)
+19 error If you need help, you may report this *entire* log,
+19 error including the npm and node versions, at:
+19 error     <http://github.com/npm/npm/issues>
+20 error System Darwin 13.1.0
+21 error command "node" "/usr/local/bin/npm" "install"
+22 error cwd /Users/Shacharudi9/My Development Files/GitHub Repo/NelinqServer/nelinqsn
+23 error node -v v0.10.26
+24 error npm -v 1.4.3
+25 verbose exit [ 1, true ]

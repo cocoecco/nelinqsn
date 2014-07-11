@@ -9,7 +9,7 @@ var pool  = mysql.createPool({
     user     : process.env.OPENSHIFT_MYSQL_DB_USERNAME,
     password : process.env.OPENSHIFT_MYSQL_DB_PASSWORD,
     database : process.env.OPENSHIFT_GEAR_NAME,
-    port     : '3306',
+    port     : '57056',
 });
 
 exports.getConnection = function(callback) {

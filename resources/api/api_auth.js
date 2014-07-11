@@ -10,6 +10,7 @@ function authenticateUser(req,res) {
     
     var loginName = queryData.uname;
     var loginPass = queryData.upass;
+    
             
     api_conn.getConnection(function(err, connection){
         if(!err){
